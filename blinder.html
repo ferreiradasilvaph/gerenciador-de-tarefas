@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerenciador de tarefas</title>
+    <link rel="stylesheet" href="vscode2/style.css" />
+  </head>
+  <body>
+    <main id="iddomain">
+      <h1>Lista de Tarefas</h1>
+      <section class="container">
+        <input type="text" id="input" placeholder="Digite sua tarefa..." />
+        <button onclick="addTarefa()" id="adicionar">Adicionar</button>
+      </section>
+
+      <div>
+        <div id="container-1">
+          <img src="img/circulo.jpeg" alt=""/>
+          <div id="lixeira">
+            <button onclick="lixeira()" id="lixeira">
+              <img src="img/icons8-lixeira.svg" alt="" />
+            </button>
+          </div>
+        </div>
+
+        <div id="container-2">
+          <img src="img/correto.jpeg" alt="" />
+          <div id="lixeira">
+            <button onclick="lixeira()" id="lixeira">
+              <img src="img/icons8-lixeira.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <script src="vscode/enttoma.js"></script>
+    </main>
+  </body>
+</html>
